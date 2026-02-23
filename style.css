@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: #8A0C0C;
+    padding: 10px 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8A0C0C;
+    padding: 10px 5%;
+    z-index: 1000;
+}
+
+header > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.vacio {
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(logoback.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+}
+
+body {
+    background-image: url("General.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lineas{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Background1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peliculas{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Background2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.series{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Background3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videojuegos{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Background4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.comics{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Background5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: #8A0C0C;
+    padding: 10px 0;
+    color: #000000;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.lineas h1,
+.peliculas h1,
+.series h1,
+.videojuegos h1,
+.comics h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: #f0f8ff;
+}
