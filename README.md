@@ -1,2 +1,2 @@
 # Transformers-wiki
-Un miki normal sobre transformers
+Un wiki normal sobre transformers
