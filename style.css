@@ -242,6 +242,44 @@ header img{
     margin: 5px 0;
 }
 
-.contacto li{
-    margin: 5px 0;
+.comentarios form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.comentarios h2 {
+    margin-bottom: 10px;
+}
+
+
+.comentarios textarea {
+    width: 40%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.comentarios button {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 12px;
+    width: 40%;
+    border: none;
+    background: #490f04;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
 }
